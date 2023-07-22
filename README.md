@@ -64,9 +64,13 @@ I designed 3 models similar to this and below is the accuracy graph.
 Define a simple intermediate layer model using one of the later internal layers from your trained network (ie. anything before softmax is possible, but some will work better than others). This is your encoding. Then you will treat the elements of this encoding as features in a dataset for clustering and visualization to help you understand what the mystery label for our dataset might mean.
 
 As we have address the following points in the above analysis, Visualize your encoding with the first two components from PCA, the colour mapping could be the label values.
+
 • Perform DBSCAN and K-means clustering algorithms on the features that you have ex tracted from your own designed model with 5 clusters and visualize the results. Use the resulting clusters as alternate colour mappings for the PCA plot above.
+
 • Apply t-SNE on the features that you have extracted for your own designed model and visualize the results in the same way.
+
 • Based on the results of clustering and t-SNE can you guess what are the labels for the given dataset? It might also help to list out a random selection of data entries (the original images) for each cluster and their label value to help understand the patterns each cluster might represent.
+
 • Feel free to try some other approach to using this encoding in a creative way. -> For this we have done lot of things in above code snippets.
 
 Based on the results of the clustering and also visualizing the images for the mystery label we can observe the following :
