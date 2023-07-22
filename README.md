@@ -1,15 +1,19 @@
 # Clustering-and-Classification-on-Twisted-Fashion-MNIST-dataset
+**Objectives Achieved:**
 
-Clustering and Classification on Twisted Fashion MNIST dataset
+**Twisted Fashion MNIST Dataset**
 
-Objectives Achieved:
-Twisted Fashion MNIST Dataset
 The label was originally an assigned clothing type represented by an integer from 0-9. The training
 set contains 60,000 examples and the test set 10,000 examples. For this project, we are providing you the same input features, but the labels you will be using will be a new mystery label. We have created a new label based on the data and calculated to be associated with each entry. The y train and y test files provide this modified label which is a category numbered 0-4. What does the number mean? That’s for you to figure out through your analysis!
+
 • x train.csv - the training set for your model. The training file contains vectors of size 784 representing pixel values of a 28x28 image.
+
 • y train.csv - is the “mystery label”, a numeric target obtained using our formulation.
+
 • x test.csv - are the features for the test set to use for final evaluation.
+
 • y test.csv - the “mystery label” for the test data.
+
 My Analysis and Results:
 •	Pre-Processing of Data:
 o	The preprocessing code represents a data preprocessing function that takes in a raw data set of images and returns the processed data in a specific format
